@@ -1,0 +1,154 @@
+body {
+    font-family:'roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #804A26;
+    padding: 5px 300px;
+    display: flex;
+    margin-left: 0;
+    justify-content: space-between;
+    
+}
+
+.headerlogo {
+    font-weight: bolder;
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.topsection {
+    background-color: #804A26;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    padding: 100px 300px;
+}
+
+h1 {
+    color: #E5E7EB;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    background: #D3A075;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 24px; 
+    color:#E5E7EB;
+    font-size: 18px;
+    margin: 10px 0px
+}
+
+.coffeepic {
+    flex:1;
+    border-radius: 8px;
+}
+
+.middlesection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color:#804A26;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.coffeetypes {
+    height: 150px;
+    width: 675px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 0px 150px;
+}
+
+.coffeetypes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    border: solid 3px #D3A075;
+}
+
+.coffeedescription {
+    color: #7b7c7e;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.bannerquote {
+    background-color: #E5E7EB;
+    padding: 75px 300px ;
+    margin: 200px 0px 100px 0px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quotee {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: end;
+}
+
+.bluebox {
+    background-color: #D3A075;
+    padding: 50px 100px;
+    border-radius: 8px;
+    margin: 0px 300px 100px 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p1{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.p2 {
+    color: white;
+    margin: 0;
+    padding: 0; 
+}
+
+.btn2 {
+    outline: solid 2px white;
+    padding: 3px 25px;
+    color: white;
+}
+
+.footer {
+    background-color: #804A26;
+    padding: 36px;
+    color:#E5E7EB;
+    text-align: center;
+}
